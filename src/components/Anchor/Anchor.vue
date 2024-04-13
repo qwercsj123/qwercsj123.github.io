@@ -1,5 +1,6 @@
 <template>
   <div class="anchor">
+    <img src="/src/assets/logo.png" class="logo" alt="">
     <div class="pc-anchor">
       <a-anchor direction="horizontal" :items="anchorList" :targetOffset="120">
       </a-anchor>
@@ -29,7 +30,7 @@ const anchorList = ref([
   {
     key: 'Intro',
     href: '#Intro',
-    title: 'INTRO',
+    title: 'INTRODUCTION',
   },
   {
     key: 'Schedule',
@@ -112,6 +113,7 @@ const changeToggle = () => {
     .ant-anchor-link-active {
       background: #C99931 !important;
       border-radius: none !important;
+      color: #FFFFFF;
     }
 
     .ant-anchor-link {
@@ -171,10 +173,15 @@ const changeToggle = () => {
   justify-content: center;
   width: 100%;
   height: 72px;
-  background: #212121;
+  background: #ffffff;
   position: fixed;
   top: 0;
   z-index: 9;
+    .logo {
+      height: 41px;
+      position: absolute;
+      left: 50px;
+    }
 
   .pc-anchor {
     :deep(.ant-anchor) {
@@ -187,12 +194,19 @@ const changeToggle = () => {
 
       .ant-anchor-link {
         letter-spacing: 0.01em;
-        background: #C99931;
         border-radius: 4px;
         padding: 15px;
 
         &+.ant-anchor-link {
           margin-left: 14px;
+        }
+      }
+      .ant-anchor-link-active {
+        background: #C99931 !important;
+        border-radius: none !important;
+        
+        .ant-anchor-link-title{
+          color: #FFFFFF;
         }
       }
 
@@ -201,10 +215,8 @@ const changeToggle = () => {
       }
 
       .ant-anchor-link-title {
-        color: #fff;
         font-family: HarmonyOS_Sans_SC_Black;
         font-size: 14px;
-        color: #FFFFFF;
         font-weight: bold;
         text-transform: none;
       }

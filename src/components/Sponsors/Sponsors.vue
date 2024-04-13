@@ -3,9 +3,8 @@
     <div class="sponsors" id="Sponsors">
       <div class="c-title">Sponsors</div>
       <div class="center">
-        <div class="c-paragraph c-text-center">We have confirmed sponsorship from Health Data Science, a Science Partner
-          Journal. The fund will be mainly used to provide travel awards to encourage students, women, and minority
-          attendees. The expected total budget is around $3,000.</div>
+        <img class="footer-logo" :src="footerLogo" alt="">
+        <div class="c-paragraph c-text-center">We have confirmed sponsorship from Health Data Science, a Science Partner Journal.</div>
       </div>
     </div>
   </Page>
@@ -13,6 +12,7 @@
 
 <script setup>
 import Page from "../Page/Page.vue"
+import footerLogo from "@/assets/footerLogo.png"
 </script>
 
 <style scoped lang="less">
@@ -23,9 +23,16 @@ import Page from "../Page/Page.vue"
   .center {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    .footer-logo {
+      width: 100px;
+      height: 100px;
+    }
 
     .c-paragraph {
       width: 980px;
+      margin: 0;
     }
   }
 }

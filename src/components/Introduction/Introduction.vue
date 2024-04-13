@@ -11,7 +11,7 @@
         the promising outlook, "AI and Data Science for Healthcare" still faces several key gaps and challenges in
         realizing its full potential:
       </div>
-      <div class="c-s-title">Importance of Data-Centric AI (DCAI).</div>
+      <div class="c-s-title">Importance of Data-Centric AI (DCAI)</div>
       <div class="c-paragraph">
         Traditionally, the development of AI has focused on optimizing model design to accommodate fixed datasets, often
         overlooking inherent data flaws such as missing values, incorrect labels, and outliers. This situation raises a
@@ -20,7 +20,7 @@
         emphasize the importance of large-scale, high-quality datasets for generating reliable and broadly applicable
         medical insights, highlighting the necessity of implementing Data-Centric AI (DCAI).
       </div>
-      <div class="c-s-title">Advancing People-Centric Healthcare (PCHC).</div>
+      <div class="c-s-title">Advancing People-Centric Healthcare (PCHC)</div>
       <div class="c-paragraph">Although advancements in AI and DS have provided people with more access to healthcare
         information, these
         technologies have not sufficiently encouraged active people participation. Existing healthcare information
@@ -29,7 +29,7 @@
         technologies and providing corresponding data education and support are crucial for realizing People-Centric
         Healthcare (PCHC).
       </div>
-      <div class="c-s-title">Promoting PCHC through DCAI Integration.</div>
+      <div class="c-s-title">Promoting PCHC through DCAI Integration</div>
       <div class="c-paragraph">A lack of interoperability among healthcare IT systems and a unified standard for data
         exchange limits the
         effective use of Data-Centric AI in People-Centric Healthcare. The diversity of data formats and standards
@@ -39,7 +39,7 @@
         clinical data, people-provided information, and real-time healthcare monitoring data, to support personalized
         medicine remains a significant challenge.
       </div>
-      <div class="c-s-title">Facilitating DCAI with Insights from PCHC.</div>
+      <div class="c-s-title">Facilitating DCAI with Insights from PCHC</div>
       <div class="c-paragraph">AI models have shown tremendous potential in improving the accuracy of medical diagnoses
         and treatment
         decisions. However, these models are often seen as "black boxes" with insufficient explainability, which poses

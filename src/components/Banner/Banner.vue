@@ -16,7 +16,7 @@
 .banner {
   width: 100%;
   aspect-ratio: 1920 / 374;
-  background-image: url("../../assets/banner.jpg");
+  background-image: url("../../assets/banner.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
