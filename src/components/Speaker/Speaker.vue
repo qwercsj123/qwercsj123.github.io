@@ -5,7 +5,7 @@
       <!-- <div class="c-paragraph c-text-center">To be announced.</div> -->
       <div class="InvitedSpeakerList" v-for="info in listData" :key="info.id">
         <Avatar style="width: 235px;" :src="info.img" :name="info.name"></Avatar>
-        <div class="info-detail">{{ info.content }}</div>
+        <div class="info-detail" style="flex: 1">{{ info.content }}</div>
       </div>
     </div>
   </Page>
@@ -32,6 +32,8 @@ const listData = ref([
   margin-bottom: 98px;
   .InvitedSpeakerList{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     .info-detail {
       margin-top: 20px;
       font-family: "TimesNewRomanPSMT", sans-serif;
