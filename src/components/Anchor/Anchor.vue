@@ -126,6 +126,12 @@ const changeToggle = () => {
         margin-left: 0;
       }
 
+      &:hover {
+        .ant-anchor-link-title {
+          color: #e5ad32;
+        }
+      }
+
       .ant-anchor-link-title {
         color: #fff;
         font-family: HarmonyOS_Sans_SC_Black;
@@ -199,6 +205,11 @@ const changeToggle = () => {
 
         &+.ant-anchor-link {
           margin-left: 14px;
+        }
+        &:hover {
+          .ant-anchor-link-title {
+            color: #e5ad32;
+          }
         }
       }
       .ant-anchor-link-active {
