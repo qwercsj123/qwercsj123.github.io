@@ -2,7 +2,7 @@
   <Page mode="dark">
     <div class="papers" id="CallForPapers">
       <div class="c-title">CALL FOR PAPERS</div>
-      <div class="c-paragraph ">We are inviting contributions to our workshop on ``AI and Data Science for Healthcare: Bridging Data-centric AI and People-Centric Healthcare'', focusing on four pivotal tracks.</div>
+      <div class="c-paragraph ">We are inviting contributions to our workshop on "AI and Data Science for Healthcare: Bridging Data-centric AI and People-Centric Healthcare'', focusing on four pivotal tracks.</div>
       <div class="c-s-title">Track 1: Data-Centric AI Innovations in Healthcare</div>
       <div class="c-paragraph">This track seeks original research showcasing the use of large-scale, high-quality datasets to enhance AI model performance in healthcare settings. It focuses on bridging the gap between data volume and AI models with solutions that reflect the model's true potential, aiming to prevent overfitting and promote practical applications.</div>
       <div class="c-s-title">Track 2: People-Centric AI Technologies</div>

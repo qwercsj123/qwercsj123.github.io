@@ -3,7 +3,9 @@
     <div class="sponsors" id="Sponsors">
       <div class="c-title">Sponsors</div>
       <div class="center">
-        <img class="footer-logo" :src="footerLogo" alt="">
+          <img class="footer-logo" :src="footerLogo" alt="">
+        </div>
+      <div class="center" style="padding-top: 30px;">
         <div class="c-paragraph c-text-center">Sponsored by <span style="font-weight: bold;font-style: italic;">Health Data Science</span>, a Science Partner Journal.</div>
       </div>
     </div>
