@@ -37,6 +37,7 @@ const listData = ref([
     .info-detail {
       margin-top: 20px;
       font-family: "TimesNewRomanPSMT", sans-serif;
+      min-width: 300px;
       font-size: 20px;
       color: #2C2F31;
       line-height: 1.8;
