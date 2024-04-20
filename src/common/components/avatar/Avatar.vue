@@ -40,6 +40,8 @@ const props = defineProps({
     .avatar-img {
       position: absolute;
       top: 11px;
+      width: 170px;
+      height: 170px;
     }
   }
 
