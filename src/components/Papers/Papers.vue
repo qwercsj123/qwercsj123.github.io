@@ -12,9 +12,9 @@
       <div class="c-s-title">Track 4: Explainable AI Models for Trustworthy Healthcare Decisions</div>
       <div class="c-paragraph">Contributions that focus on increasing the explainability of AI models within healthcare are welcomed in this track. It emphasizes methodologies and technologies that enhance model transparency, aiming to build trust among people and healthcare providers in AI-driven decisions.</div>
       <div class="c-paragraph">Through these tracks, we aim to foster discussions and developments that push the boundaries of AI and Data Science in healthcare, enhancing both diagnostic accuracies and fostering a people-centric approach to healthcare innovation.</div>
-      <div class="c-paragraph">Submissions to this KDD conference should consist of a main text of up to 5 pages using the ACM style file, with unlimited space allowed for the appendix. All papers must be non-archival, and submissions will undergo a rigorous double-blind review process by at least 2-3 assigned reviewers using OpenReview to manage any conflicts of interest effectively. Author names and affiliations should not be listed to adhere to the double-blind policy.</div>
+      <div class="c-paragraph">Submissions to this KDD conference should consist of a main text of up to <span class="text-bold-darkred">5 pages</span> using <span class="text-bold-darkred">the ACM style file</span>, with unlimited space allowed for the appendix. All papers must be non-archival, and submissions will undergo a rigorous double-blind review process by at least 2-3 assigned reviewers using OpenReview to manage any conflicts of interest effectively. Author names and affiliations should not be listed to adhere to the double-blind policy.</div>
       <div class="c-paragraph">Papers will be evaluated based on novelty, technical quality, potential impact, and clarity of writing. Substantial emphasis is placed on empirical evaluations; therefore, experimental methods and results must be clear, well-executed, and repeatable. Authors are strongly encouraged to make their data and code publicly available. Accepted papers will be posted on the workshop website but will not be included in the KDD proceedings.</div>
-      <div class="c-paragraph">One recommended setting for Latex file of anonymous manuscript is: \documentclass[sigconf, anonymous, review]{acmart}. Template guidelines are here: <span class="c-text-blue" @click="toReview('https://www.acm.org/publications/proceedings-template')">https://www.acm.org/publications/proceedings-template</span></div>
+      <div class="c-paragraph">One recommended setting for Latex file of anonymous manuscript is: \documentclass[sigconf, anonymous, review]{acmart}.<span class="text-bold-darkred">Template guidelines</span>  are here: <span class="c-text-blue" @click="toReview('https://www.acm.org/publications/proceedings-template')">https://www.acm.org/publications/proceedings-template</span></div>
       <div class="c-paragraph"> All the papers are required to be submitted via the <span
           class="c-text-blue c-text-line" @click="toReview('https://openreview.net/group?id=KDD.org/2024/Workshop/AIDSH&referrer=%5BHomepage%5D(%2F)#tab-your-consoles')">OpenReview</span> system.
       </div>
@@ -70,5 +70,9 @@ const toReview = (url)=>{
 .papers {
   margin-top: 110px;
   margin-bottom: 160px;
+}
+.text-bold-darkred {
+  font-weight: bold; /* 设置字体加粗 */
+  color: darkred;    /* 设置暗红色 */
 }
 </style>

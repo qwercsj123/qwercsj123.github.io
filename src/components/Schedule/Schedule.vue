@@ -2,7 +2,7 @@
   <Page mode="dark">
     <div class="schedule" id="Schedule">
       <div class="c-title">SCHEDULE</div>
-      <div class="c-paragraph">This half-day workshop consists of 3 invited talks, 6 contribut</div>
+      <div class="c-paragraph">To be announced</div>
     </div>
   </Page>
 </template>
