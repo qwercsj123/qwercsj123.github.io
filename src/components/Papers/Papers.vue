@@ -32,7 +32,12 @@
     <div id="KeyDates" class="key-date">
       <div class="c-title">Key Dates</div>
       <div class="c-s-title">
-        <span > Paper Submission Deadline: </span><span class="c-inline-text">May 28, 2024(23:59, Anywhere on Earth)</span></div>
+        <span > Paper Submission Deadline: </span>
+        <div>
+          <div class="c-inline-text" style="text-decoration: line-through;">May 28, 2024(23:59, Anywhere on Earth)</div>
+          <div class="c-inline-text" style="padding-top: 10px;">June 4, 2024(23:59, Anywhere on Earth)</div>
+        </div>
+      </div>
       <div class="c-s-title">Author Notification:<span class="c-inline-text">June 28, 2024</span></div>
       <div class="c-s-title">Workshop:<span class="c-inline-text">August 26, 2024</span></div>
     </div>
