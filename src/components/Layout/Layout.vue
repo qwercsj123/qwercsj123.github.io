@@ -5,6 +5,7 @@
     <Introduction></Introduction>
     <Schedule></Schedule>
     <Speaker></Speaker>
+    <AcceptedPapers></AcceptedPapers>
     <Papers></Papers>
     <Steering></Steering>
     <ProgramCom></ProgramCom>
@@ -19,6 +20,7 @@ import Banner from "../Banner/Banner.vue"
 import Introduction from "../Introduction/Introduction.vue";
 import Schedule from "../Schedule/Schedule.vue";
 import Speaker from "../Speaker/Speaker.vue";
+import AcceptedPapers from "../AcceptedPapers/AcceptedPapers.vue";
 import Papers from "../Papers/Papers.vue";
 import Steering from "../Steering/Steering.vue";
 import ProgramCom from "../Program/ProgramCom.vue";

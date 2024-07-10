@@ -43,6 +43,11 @@ const anchorList = ref([
     title: 'INVITED SPEAKERS',
   },
   {
+    key: 'AcceptedPapers',
+    href: '#AcceptedPapers',
+    title: 'ACCEPTED PAPERS',
+  },
+  {
     key: 'CallForPapers',
     href: '#CallForPapers',
     title: 'CALL FOR PAPERS',
