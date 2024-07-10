@@ -2,9 +2,9 @@
   <Page mode="">
     <div class="schedule" id="Schedule">
       <div class="c-title">SCHEDULE</div>
-      <div class="c-paragraph" style="text-align: center;font-weight: bold;">August 26, 2024 </div>
-      <div class="c-paragraph"style="text-align: center;font-weight: bold;" > Location: TBD </div>
-      <div class="c-paragraph" style="text-align: center;font-weight: bold;"> Zoom Link: TBD </div>
+      <div class="c-paragraph" style="text-align: center;font-weight: bold;font-size: 25px">August 26, 2024 </div>
+      <div class="c-paragraph"style="text-align: center;font-weight: bold;font-size: 25px" > Location: TBD </div>
+      <div class="c-paragraph" style="text-align: center;font-weight: bold;font-size: 25px"> Zoom Link: TBD </div>
         
      
   <table>
@@ -71,10 +71,12 @@ table {
         border-bottom: 1px solid #ddd;
         border: 1px solid black;
         width: 25%;
+        font-size: 23px
         }
         th {
             background-color: #f2f2f2;
             border: 1px solid black;
+            font-size: 23px
         }
 
 
