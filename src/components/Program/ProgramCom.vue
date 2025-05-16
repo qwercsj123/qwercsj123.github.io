@@ -2,7 +2,10 @@
   <Page>
     <div class="program">
       <div class="c-title">Program Committee</div>
-      <div class="c-info-list">
+<!--      <div id="organizer-wrap">-->
+<!--        <iframe class="airtable-embed" src="https://airtable.com/embed/appPDKpS4OBqbgsrS/shrCrCrlRwwBaV7DG" frameborder="0" onmousewheel="" width="100%" height="750" style="background: transparent; border: 1px solid #ccc;"></iframe>-->
+<!--    </div>-->
+      <div class="c-info-list" style="margin-top: 80px">
         <Info v-for="info in listData" :key="info.id" :src="info.img" :name="info.name" :content="info.content"></Info>
       </div>
     </div>
@@ -35,5 +38,21 @@ const listData = ref([
 <style scoped lang="less">
 .program {
   margin-top: 110px;
+}
+#organizer-wrap{
+  width: 100%;
+  height: 750px;
+  padding: 0;
+  overflow: hidden;
+}
+#organizer-frame{
+  width: 107%; height: 750px; background: transparent; border: 1px solid #ccc;
+  -ms-zoom: 0.93;
+  -moz-transform: scale(0.93);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.93);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.93);
+  -webkit-transform-origin: 0 0;
 }
 </style>

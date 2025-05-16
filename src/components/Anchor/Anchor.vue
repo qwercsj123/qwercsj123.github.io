@@ -30,7 +30,7 @@ const anchorList = ref([
   {
     key: 'Intro',
     href: '#Intro',
-    title: 'INTRODUCTION',
+    title: 'INTRO',
   },
   {
     key: 'Schedule',
@@ -55,7 +55,7 @@ const anchorList = ref([
   {
     key: 'KeyDates',
     href: '#KeyDates',
-    title: 'KEY DATES',
+    title: 'IMPORTANT DATES',
   },
   {
     key: 'Organizers',
