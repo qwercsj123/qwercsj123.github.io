@@ -2,27 +2,32 @@
     <Page>
         <div class="acceptedPapers" id="AcceptedPapers">
             <div class="c-title">Accepted Papers</div>
-            <ul>
-              <li v-for="(item, index) in listData" :key="index">
-                <h3>
-                  {{item.title}} <br />
-                </h3>
-                <div class="small">
-                  <i> {{item.author}} </i>
-                </div>
+            <div class="c-paragraph c-text-center">
+              <h2> TBD </h2>
+            </div>
+<!--            <ul>-->
+<!--              <li v-for="(item, index) in listData" :key="index">-->
+<!--                <h3>-->
+<!--                  {{item.title}} <br />-->
+<!--                </h3>-->
+<!--                <div class="small">-->
+<!--                  <i> {{item.author}} </i>-->
+<!--                </div>-->
 
-                <div class="button-container">
-                  <div class="action-buttons">
-                    <a class="abstract" @click="toggleAbstract(index)">{{ showAbstractMap[index] ? 'Hide Abstract' : 'Abstract' }}</a>
-                    <a class="pdf">PDF</a>
-                    <a class="button">Code &amp; Datasets</a>
-                  </div>
-                  <div class="btn-content small" v-show="showAbstractMap[index]">
-                    <b>Abstract</b>: Quantitatively profiling a scholar's scientific impact is important to modern research society. Current practices with bibliometric indicators (e.g., h-index), lists, and networks perform well at scholar ranking, but do not provide structured context for scholar-centric, analytical tasks such as profile reasoning and understanding. This work presents GeneticFlow (GF), a suite of novel graph-based scholar profiles that fulfill three essential requirements: structured-context, scholar-centric, and evolution-rich. We propose a framework to compute GF over large-scale academic data sources with millions of scholars. The framework encompasses a new unsupervised advisor-advisee detection algorithm, a well-engineered citation type classifier using interpretable features, and a fine-tuned graph neural network (GNN) model. Evaluations are conducted on the real-world task of scientific award inference. Experiment outcomes show that the F1 score of best GF profile significantly outperforms alternative methods of impact indicators and bibliometric networks in all the 6 computer science fields considered. Moreover, the core GF profiles, with 63.6%~66.5% nodes and 12.5%~29.9% edges of the full profile, still significantly outrun existing methods in 5 out of 6 fields studied. Visualization of GF profiling result also reveals human explainable patterns for high-impact scholars.
-                  </div>
-                </div>
-              </li>
-            </ul>
+<!--                <div class="button-container">-->
+<!--                  <div class="action-buttons">-->
+<!--                    <a class="abstract" @click="toggleAbstract(index)">{{ showAbstractMap[index] ? 'Hide Abstract' : 'Abstract' }}</a>-->
+<!--                    <a class="pdf">PDF</a>-->
+<!--                    <a class="button">Code &amp; Datasets</a>-->
+<!--                  </div>-->
+<!--                  <div class="btn-content small" v-show="showAbstractMap[index]">-->
+<!--                    <b>Abstract</b>: Quantitatively profiling a scholar's scientific impact is important to modern research society. Current practices with bibliometric indicators (e.g., h-index), lists, and networks perform well at scholar ranking, but do not provide structured context for scholar-centric, analytical tasks such as profile reasoning and understanding. This work presents GeneticFlow (GF), a suite of novel graph-based scholar profiles that fulfill three essential requirements: structured-context, scholar-centric, and evolution-rich. We propose a framework to compute GF over large-scale academic data sources with millions of scholars. The framework encompasses a new unsupervised advisor-advisee detection algorithm, a well-engineered citation type classifier using interpretable features, and a fine-tuned graph neural network (GNN) model. Evaluations are conducted on the real-world task of scientific award inference. Experiment outcomes show that the F1 score of best GF profile significantly outperforms alternative methods of impact indicators and bibliometric networks in all the 6 computer science fields considered. Moreover, the core GF profiles, with 63.6%~66.5% nodes and 12.5%~29.9% edges of the full profile, still significantly outrun existing methods in 5 out of 6 fields studied. Visualization of GF profiling result also reveals human explainable patterns for high-impact scholars.-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          <a href="assets/papers/glb2023/TpuGraphs_4_pager___Appendix.pdf" class="btn btn&#45;&#45;small btn&#45;&#45;info">PDF</a>-->
+<!--          <a href="https://github.com/google-research-datasets/tpu_graphs" class="btn btn&#45;&#45;small btn&#45;&#45;info">-->
         </div>
     </Page>
 </template>

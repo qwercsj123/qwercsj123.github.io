@@ -3,63 +3,67 @@
     <div class="schedule" id="Schedule">
       <div style=" background-color: #EEE;height: 80px"></div>
       <div class="c-title">SCHEDULE</div>
-      <div class="dataAndLocation" >
-        <h3 >1:00 PM - 5:00 PM (PT)</h3>
-        <h3>Venue: 201A </h3>
+      <div class="c-paragraph c-text-center">
+        <h2> TBD </h2>
       </div>
-      <div class="container">
+      <div style=" background-color: #EEE;height: 80px"></div>
+<!--      <div class="dataAndLocation" >-->
+<!--        <h3 >1:00 PM - 5:00 PM (PT)</h3>-->
+<!--        <h3>Venue: 201A </h3>-->
+<!--      </div>-->
+<!--      <div class="container">-->
 
-        <div class="row">
-          <div class="col-lg-1 text-left" >
-            &nbsp;
-          </div>
+<!--        <div class="row">-->
+<!--          <div class="col-lg-1 text-left" >-->
+<!--            &nbsp;-->
+<!--          </div>-->
 
-          <div class="content">
+<!--          <div class="content">-->
 
-            <p >01:00-01:15 Opening remarks</p>
-            <p>01:15-2:00 Keynote Talk </p>
-            <ul>
-              <li><strong> Robust and Intelligent Time Series Analysis and Applications </strong>, <em>Prof. Wotao Yin</em></li>
-            </ul>
+<!--            <p >01:00-01:15 Opening remarks</p>-->
+<!--            <p>01:15-2:00 Keynote Talk </p>-->
+<!--            <ul>-->
+<!--              <li><strong> Robust and Intelligent Time Series Analysis and Applications </strong>, <em>Prof. Wotao Yin</em></li>-->
+<!--            </ul>-->
 
-            <p>2:50-2:45 Keynote Talk </p>
-            <ul>
-              <li><strong> Modeling Temporal Data via Knowledge-Guided Machine Learning: A New Framework for Accelerating Scientific Discovery and Addressing Global Environmental Challenges
-              </strong>, <em>Prof. Vipin Kumar</em></li>
-            </ul>
+<!--            <p>2:50-2:45 Keynote Talk </p>-->
+<!--            <ul>-->
+<!--              <li><strong> Modeling Temporal Data via Knowledge-Guided Machine Learning: A New Framework for Accelerating Scientific Discovery and Addressing Global Environmental Challenges-->
+<!--              </strong>, <em>Prof. Vipin Kumar</em></li>-->
+<!--            </ul>-->
 
-            <p>2:45-3:30 Poster Session + Coffee Break</p>
-            <p>3:30-4:10 Contributed Talks </p>
-            <ul>
-              <li>
-                <strong>Deep Sequence Modeling for Event Log-based Predictive Maintenance</strong>.<em>Yun Zhou, Yawei Wang, Huan Song, Tesfagabir Meharizghi, Mohamad Al Jazaery, Denisse Colin-Magana, Aruna Abeyakoon and Panpan Xu.</em> </li>
-              <li>
-                <strong>Dynamic Ensemble for Probabilistic Time-series forecasting via Deep Reinforcement Learning</strong>. <em>Ding, Youngsuk Park, Karthick Gopalswamy, Hilaf Hasson, Yuyang Wang and Jun Huan.</em> </li>
-              <li>
-                <strong>VQ-TR: Vector Quantized Attention for Time Series Forecasting</strong>.<em>Kashif Rasul, Umang Gupta, Hena Ghonia, Anderson Schneider and Yuriy Nevmyvaka.</em> </li>
-              <li>
-                <strong>Long-Range Transformers for Dynamic Spatiotemporal Forecasting</strong>. <em>Grigsby, Zhe Wang, Nam H Nguyen and Yanjun Qi.</em>
-              </li>
+<!--            <p>2:45-3:30 Poster Session + Coffee Break</p>-->
+<!--            <p>3:30-4:10 Contributed Talks </p>-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                <strong>Deep Sequence Modeling for Event Log-based Predictive Maintenance</strong>.<em>Yun Zhou, Yawei Wang, Huan Song, Tesfagabir Meharizghi, Mohamad Al Jazaery, Denisse Colin-Magana, Aruna Abeyakoon and Panpan Xu.</em> </li>-->
+<!--              <li>-->
+<!--                <strong>Dynamic Ensemble for Probabilistic Time-series forecasting via Deep Reinforcement Learning</strong>. <em>Ding, Youngsuk Park, Karthick Gopalswamy, Hilaf Hasson, Yuyang Wang and Jun Huan.</em> </li>-->
+<!--              <li>-->
+<!--                <strong>VQ-TR: Vector Quantized Attention for Time Series Forecasting</strong>.<em>Kashif Rasul, Umang Gupta, Hena Ghonia, Anderson Schneider and Yuriy Nevmyvaka.</em> </li>-->
+<!--              <li>-->
+<!--                <strong>Long-Range Transformers for Dynamic Spatiotemporal Forecasting</strong>. <em>Grigsby, Zhe Wang, Nam H Nguyen and Yanjun Qi.</em>-->
+<!--              </li>-->
 
-              <li>
-                <strong> STNN-SDE: Continuous Stochastic Spatial-Temporal Representation Learning via Latent Stochastic Differential Equations</strong>.<em>Yanbo Xu, Piyush Patil, Lingkai Kong and Chao Zhang.</em> </li>
-            </ul>
+<!--              <li>-->
+<!--                <strong> STNN-SDE: Continuous Stochastic Spatial-Temporal Representation Learning via Latent Stochastic Differential Equations</strong>.<em>Yanbo Xu, Piyush Patil, Lingkai Kong and Chao Zhang.</em> </li>-->
+<!--            </ul>-->
 
 
 
-            <p>4:10-4:55 pm Keynote Talk </p>
-            <ul>
-              <li><strong>Convolutional kernels for effective and scalable time series analytics</strong>, <em>Prof. Geoff Webb</em></li>
-            </ul>
+<!--            <p>4:10-4:55 pm Keynote Talk </p>-->
+<!--            <ul>-->
+<!--              <li><strong>Convolutional kernels for effective and scalable time series analytics</strong>, <em>Prof. Geoff Webb</em></li>-->
+<!--            </ul>-->
 
-            <p>4:55-5:00 pm Concluding Remarks</p>
+<!--            <p>4:55-5:00 pm Concluding Remarks</p>-->
 
-          </div>
+<!--          </div>-->
 
-        </div>
+<!--        </div>-->
 
-        <div style=" background-color: #EEE;height: 80px"></div>
-      </div>
+<!--        <div style=" background-color: #EEE;height: 80px"></div>-->
+<!--      </div>-->
 
     </div>
 

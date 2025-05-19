@@ -86,24 +86,24 @@
       <div class="c-title">Important Dates</div>
       <div class="c-s-title notification-row">
         <span style="text-align: center"> Paper Submission Deadline: </span>
-        <span class="c-inline-text">June 4, 2024</span>
+        <span class="c-inline-text">Oct 15,2025</span>
 <!--        <div>-->
 <!--          <div class="c-inline-text" style="text-decoration: line-through;text-align: center">May 28, 2024(23:59, Anywhere on Earth)</div>-->
 <!--          <div class="c-inline-text" style="padding-top: 10px;text-align: center">June 4, 2024</div>-->
 <!--        </div>-->
       </div>
-      <div class="c-s-title notification-row" style="margin-left: -50px">
+      <div class="c-s-title notification-row" style="margin-left: -64px">
         <span>Author Notification:</span>
-        <span class="c-inline-text">June 28, 2024</span>
+        <span class="c-inline-text">Nov 10,2025</span>
       </div>
 
-      <div class="c-s-title notification-row" style="margin-left: -100px">
+      <div class="c-s-title notification-row" style="margin-left: -110px">
         <span>Camera Ready:</span>
-        <span class="c-inline-text">June 28, 2024</span>
+        <span class="c-inline-text">Nov 23,2025</span>
       </div>
-      <div class="c-s-title notification-row" style="margin-left: -120px">
-        <span>Workshop:</span>
-        <span class="c-inline-text">August 26, 2024</span>
+      <div class="c-s-title notification-row" style="margin-left: -108px">
+        <span>Workshops:</span>
+        <span class="c-inline-text">Dec 15-18,2025</span>
       </div>
     </div>
   </Page>

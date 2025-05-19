@@ -2,21 +2,23 @@
   <Page>
     <div class="speaker" id="InvitedSpeakers">
       <div class="c-title">INVITED SPEAKERS</div>
-      <!-- <div class="c-paragraph c-text-center">To be announced.</div> -->
-      <div class="InvitedSpeakerList" v-for="info in listData" :key="info.id">
-        <Avatar style="width: 235px;" :src="info.img" :name="info.name"></Avatar>
-        <div class="info-detail" style="flex: 1">
-          <div class="topic" v-if="info.topic">Topic: {{ info.topic }}</div>
-          <div class="abstract" v-if="info.abstract">
-            <div class="abstract-title">Abstract:</div>
-            <div class="abstract-content">{{ info.abstract }}</div>
-          </div>
-          <div class="bio">
-            <span class="bio-title">Bio: </span>
-            <span class="bio-content">{{ info.content }}</span>
-          </div>
-        </div>
-      </div>
+       <div class="c-paragraph c-text-center">
+         <h2> To be announced.</h2>
+       </div>
+<!--      <div class="InvitedSpeakerList" v-for="info in listData" :key="info.id">-->
+<!--        <Avatar style="width: 235px;" :src="info.img" :name="info.name"></Avatar>-->
+<!--        <div class="info-detail" style="flex: 1">-->
+<!--          <div class="topic" v-if="info.topic">Topic: {{ info.topic }}</div>-->
+<!--          <div class="abstract" v-if="info.abstract">-->
+<!--            <div class="abstract-title">Abstract:</div>-->
+<!--            <div class="abstract-content">{{ info.abstract }}</div>-->
+<!--          </div>-->
+<!--          <div class="bio">-->
+<!--            <span class="bio-title">Bio: </span>-->
+<!--            <span class="bio-content">{{ info.content }}</span>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </Page>
 </template>

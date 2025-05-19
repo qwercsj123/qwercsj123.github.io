@@ -88,6 +88,9 @@ const changeToggle = () => {
   .mobile-anchor {
     display: block !important;
   }
+  .logo{
+    height: 41px !important;
+  }
 }
 
 .mobile-anchor {
@@ -189,9 +192,10 @@ const changeToggle = () => {
   top: 0;
   z-index: 9;
     .logo {
-      height: 41px;
+      height: 60px;
       position: absolute;
       left: 50px;
+      background-color: white;
     }
 
   .pc-anchor {

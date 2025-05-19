@@ -7,7 +7,7 @@
     <Speaker></Speaker>
     <AcceptedPapers></AcceptedPapers>
     <Papers></Papers>
-    <Steering></Steering>
+<!--    <Steering></Steering>-->
     <ProgramCom></ProgramCom>
     <Operational></Operational>
     <Sponsors></Sponsors>
@@ -15,10 +15,8 @@
 </template>
 
 <script setup>
-import Anchor from "../Anchor/Anchor.vue"
 import Banner from "../Banner/Banner.vue"
 import Introduction from "../Introduction/Introduction.vue";
-import Schedule from "../Schedule/Schedule.vue";
 import Speaker from "../Speaker/Speaker.vue";
 import AcceptedPapers from "../AcceptedPapers/AcceptedPapers.vue";
 import Papers from "../Papers/Papers.vue";
@@ -26,6 +24,8 @@ import Steering from "../Steering/Steering.vue";
 import ProgramCom from "../Program/ProgramCom.vue";
 import Operational from "../Operational/Operational.vue";
 import Sponsors from "../Sponsors/Sponsors.vue";
+import Anchor from "@/components/Anchor/Anchor.vue";
+import Schedule from "@/components/Schedule/Schedule.vue";
 </script>
 
 <style scoped lang="less">

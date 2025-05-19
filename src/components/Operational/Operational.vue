@@ -6,52 +6,18 @@
         <div class="column-half">
           <ul>
 
-            <li><strong>Ayan Chatterjee</strong> (Northeastern University) </li>
+            <li><strong>Daoxin Yin</strong> (the Executive Editor for Health Data Science (HDS) and previously served as the China Editor for BMJ) </li>
 
-            <li><strong>Baixiang Huang</strong> (National University of Singapore) </li>
+            <li><strong>Mai Wang</strong> (the Director of the Health Data Science (HDS) Editorial Office and the Head of the Comprehensive Department at National Institute of Health Data Science at Peking University) </li>
 
-            <li><strong>Brandon A Mayer</strong> (Google) </li>
-
-            <li><strong>Chen Shao</strong> (Karlsruhe Institute of Technology) </li>
-
-            <li><strong>Chenhui Deng</strong> (Cornell University) </li>
-
-            <li><strong>Delvin Ce Zhang</strong> (Singapore Management University) </li>
-
-            <li><strong>Dingsu Wang</strong> (University of Illinois at Urbana-Champaign) </li>
-
-            <li><strong>Dongjin Song</strong> (University of Connecticut) </li>
-
-            <li><strong>Dongkwan Kim</strong> (KAIST) </li>
-
-            <li><strong>Jian Kang</strong> (University of Rochester) </li>
-
-            <li><strong>Jiarui Lu</strong> (Mila) </li>
 
           </ul>
         </div>
         <div class="column-half">
           <ul>
+            <li><strong>Yu Yang</strong> (Assistant Research Professor at National Institute of Health Data Science at Peking University) </li>
 
-            <li><strong>Johannes Gasteiger</strong> (Technical University of Munich) </li>
-
-            <li><strong>Leonardo F. R. Ribeiro</strong> (TU Darmstadt) </li>
-
-            <li><strong>Mehdi Azabou</strong> (Georgia Institute of Technology) </li>
-
-            <li><strong>Neil Shah</strong> (Snap Inc.) </li>
-
-            <li><strong>Oliver Kiss</strong> (Central European University) </li>
-
-            <li><strong>Rik Sarkar</strong> (The University of Edinburgh) </li>
-
-            <li><strong>Shuangjia Zheng</strong> (Sun Yat-sen University) </li>
-
-            <li><strong>Sungsoo   Ahn</strong> (POSTECH) </li>
-
-            <li><strong>Wenqing Zheng</strong> (University of Texas at Austin) </li>
-
-            <li><strong>Xingjian Zhang</strong> (University of Michigan) </li>
+            <li><strong>Gongzheng Tang</strong> (PhD student in health data science at Peking University) </li>
 
           </ul>
         </div>
@@ -77,7 +43,6 @@ const listData = ref([
   { id: 4, name: 'Gongzheng Tang', img: tang, content: 'Gongzheng Tang, PhD student in health data science at Peking University.' },
   { id: 5, name: 'Junyi Gao', img: gao, content: 'Junyi Gao, Ph.D. student in the Health Data Research UK (HDRUK) program at the University of Edinburgh.' },
   { id: 6, name: 'Chenxi Sun', img: sun, content: 'Chenxi Sun, PhD student in intelligence science and technology at Peking University.' },
-
 ])
 </script>
 
